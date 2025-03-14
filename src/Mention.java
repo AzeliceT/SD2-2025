@@ -1,22 +1,22 @@
 public class Mention {
 
-    private int idArtiste, idMention, nombreMention;
+    private int pageIdDepart, pageIdArrivee, cout;
 
-    public Mention(int idArtiste, int idMention, int nombreMention) {
-        this.idArtiste = idArtiste;
-        this.idMention = idMention;
-        this.nombreMention = nombreMention;
+    public Mention(int pageID, int idMention, int nombreMention) {
+        this.pageIdDepart = pageID;
+        this.pageIdArrivee = idMention;
+        this.cout = nombreMention;
     }
 
-    public int getIdArtiste() {
-        return idArtiste;
+    public int getPageIdDepart() {
+        return pageIdDepart;
     }
 
-    public int getIdMention() {
-        return idMention;
+    public int getPageIdArrivee() {
+        return pageIdArrivee;
     }
 
-    public int getNombreMention() {
-        return nombreMention;
+    public int getCout() {
+        return cout;
     }
 }
